@@ -239,7 +239,7 @@ As a visitor, I want product, team, and support information in the Landing Page,
 
 - **Given** the visitor reviews the team section below the media area
 - **When** the visitor reads the team cards
-- **Then** the page identifies Mateo Condori, Joaquin Cuba, Darnell Cuba, Juan Flores, and José Santana as software engineers and provides a short contribution description for each.
+- **Then** the page identifies Mateo Leon, Jose Rudas, Darnell Cuba, Juan Flores, and José Santana as software engineers and provides a short contribution description for each.
 
 ### Scenario: The support area answers the evidenced questions
 
