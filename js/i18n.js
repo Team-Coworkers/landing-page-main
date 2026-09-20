@@ -127,17 +127,17 @@ const translations = {
     "sales.thanks": "Thanks. A Hostera teammate will follow up.",
     "footer.tagline": "Hotel operations, connected.",
     "footer.terms": "Terms and Conditions",
-    "footer.copy": "© 2026 Grafo Verde. All rights reserved.",
+    "footer.copy": "© 2026 Team Coworkers. All rights reserved.",
     "terms.meta.title": "Terms and Conditions | Hostera",
     "terms.meta.description":
-      "Terms that govern use of the Hostera landing page and Hostera services published by Grafo Verde.",
+      "Terms that govern use of the Hostera landing page and Hostera services published by Team Coworkers.",
     "terms.title": "Terms and Conditions",
     "terms.updated": "Last updated: 16 September 2026",
     "terms.intro":
-      "These terms govern access to the Hostera website and the Hostera hotel-operations product published by Grafo Verde. By using this site you agree to them. If you do not agree, do not use the site or the product.",
+      "These terms govern access to the Hostera website and the Hostera hotel-operations product published by Team Coworkers. By using this site you agree to them. If you do not agree, do not use the site or the product.",
     "terms.h.who": "1. Publisher",
     "terms.p.who":
-      "Hostera is published by Grafo Verde. References to “we”, “us”, or “our” mean Grafo Verde. Hostera is a hotel-operations product for reservations, rooms, inventory, and guest access across one or more properties.",
+      "Hostera is published by Team Coworkers. References to “we”, “us”, or “our” mean Team Coworkers. Hostera is a hotel-operations product for reservations, rooms, inventory, and guest access across one or more properties.",
     "terms.h.site": "2. This website",
     "terms.p.site":
       "The landing page describes Hostera and lets visitors compare plans, learn about the team, and contact sales. Information on the site is for general presentation. It is not a binding offer, a service-level commitment, or legal, tax, or operational advice.",
@@ -149,7 +149,7 @@ const translations = {
       "You may browse the site for lawful purposes. You must not misuse the site, attempt unauthorized access, disrupt its operation, scrape it in an abusive way, or copy product materials, marks, or media without permission.",
     "terms.h.ip": "5. Intellectual property",
     "terms.p.ip":
-      "The Hostera name, the Hostera mark, copy, layout, and media on this site are owned by Grafo Verde or used with permission. You do not receive a license to reuse them except as needed to view the site in a browser.",
+      "The Hostera name, the Hostera mark, copy, layout, and media on this site are owned by Team Coworkers or used with permission. You do not receive a license to reuse them except as needed to view the site in a browser.",
     "terms.h.data": "6. Information you send us",
     "terms.p.data":
       "If you submit the sales form, we use the name, organization, and message you provide to follow up about Hostera. Do not send sensitive personal data through that form. We keep that information only as long as needed to respond.",
@@ -290,17 +290,17 @@ const translations = {
     "sales.thanks": "Gracias. Alguien de Hostera te contactará.",
     "footer.tagline": "Operación hotelera, conectada.",
     "footer.terms": "Términos y condiciones",
-    "footer.copy": "© 2026 Grafo Verde. Todos los derechos reservados.",
+    "footer.copy": "© 2026 Team Coworkers. Todos los derechos reservados.",
     "terms.meta.title": "Términos y condiciones | Hostera",
     "terms.meta.description":
-      "Términos que rigen el uso de la página de Hostera y de los servicios Hostera publicados por Grafo Verde.",
+      "Términos que rigen el uso de la página de Hostera y de los servicios Hostera publicados por Team Coworkers.",
     "terms.title": "Términos y condiciones",
     "terms.updated": "Última actualización: 16 de septiembre de 2026",
     "terms.intro":
-      "Estos términos rigen el acceso al sitio de Hostera y al producto de operación hotelera Hostera publicado por Grafo Verde. Al usar este sitio aceptas estos términos. Si no estás de acuerdo, no uses el sitio ni el producto.",
+      "Estos términos rigen el acceso al sitio de Hostera y al producto de operación hotelera Hostera publicado por Team Coworkers. Al usar este sitio aceptas estos términos. Si no estás de acuerdo, no uses el sitio ni el producto.",
     "terms.h.who": "1. Editor",
     "terms.p.who":
-      "Hostera es publicado por Grafo Verde. Las referencias a “nosotros” significan Grafo Verde. Hostera es un producto de operación hotelera para reservas, habitaciones, inventario y acceso de huéspedes en una o varias propiedades.",
+      "Hostera es publicado por Team Coworkers. Las referencias a “nosotros” significan Team Coworkers. Hostera es un producto de operación hotelera para reservas, habitaciones, inventario y acceso de huéspedes en una o varias propiedades.",
     "terms.h.site": "2. Este sitio",
     "terms.p.site":
       "La página de inicio presenta Hostera y permite comparar planes, conocer al equipo y contactar a ventas. La información del sitio es de carácter general. No constituye una oferta vinculante, un compromiso de nivel de servicio ni asesoramiento legal, fiscal u operativo.",
@@ -312,7 +312,7 @@ const translations = {
       "Puedes navegar el sitio con fines lícitos. No debes hacer un uso indebido del sitio, intentar un acceso no autorizado, interrumpir su funcionamiento, extraer datos de forma abusiva ni copiar materiales, marcas o medios del producto sin permiso.",
     "terms.h.ip": "5. Propiedad intelectual",
     "terms.p.ip":
-      "El nombre Hostera, la marca Hostera, los textos, el diseño y los medios de este sitio son de Grafo Verde o se usan con permiso. No recibes una licencia para reutilizarlos, salvo la necesaria para ver el sitio en un navegador.",
+      "El nombre Hostera, la marca Hostera, los textos, el diseño y los medios de este sitio son de Team Coworkers o se usan con permiso. No recibes una licencia para reutilizarlos, salvo la necesaria para ver el sitio en un navegador.",
     "terms.h.data": "6. Información que nos envías",
     "terms.p.data":
       "Si envías el formulario de ventas, usamos el nombre, la organización y el mensaje para dar seguimiento sobre Hostera. No envíes datos personales sensibles por ese formulario. Conservamos esa información solo el tiempo necesario para responder.",
