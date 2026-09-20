@@ -1,6 +1,6 @@
 # User Stories
 
-**Author**: Grafo Verde Web Applications Developer Team
+**Author**: Team Coworkers Open Source Development Team
 
 **License**: See [LICENSE.md](../LICENSE.md) for details.
 
@@ -73,7 +73,7 @@ As a visitor, I want clearly labeled navigation, so that I can find the Landing 
 
 - **Given** the visitor reviews the footer
 - **When** the visitor reads the supporting information
-- **Then** the page identifies Hostera with the statement “Hotel operations, connected.” and shows the copyright notice for Grafo Verde.
+- **Then** the page identifies Hostera with the statement “Hotel operations, connected.” and shows the copyright notice for Team Coworkers.
 
 ### Scenario: Header navigation takes the visitor to the selected section
 

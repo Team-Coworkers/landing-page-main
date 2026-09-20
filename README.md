@@ -2,7 +2,7 @@
 
 **Hotel operations, connected.**
 
-Hostera is a hotel-operations product from **Grafo Verde**. It brings reservations, rooms, inventory, and guest access into one place so independent hotels, small chains, and hotel groups can work from the same operational picture.
+Hostera is a hotel-operations product from **Team Coworkers**. It brings reservations, rooms, inventory, and guest access into one place so independent hotels, small chains, and hotel groups can work from the same operational picture.
 
 This repository is the **public landing page** for that product: a static site in HTML, CSS, and JavaScript. It is not the Hostera admin application. The page is English by default and can switch to Spanish in place.
 
@@ -45,4 +45,4 @@ User stories for the landing page live in [`docs/user-stories.md`](docs/user-sto
 
 ## License
 
-MIT. See [LICENSE.md](LICENSE.md). Published by Grafo Verde.
+MIT. See [LICENSE.md](LICENSE.md). Published by Team Coworkers.
