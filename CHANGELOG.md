@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Replaced the former Grafo Verde publisher identity with Team Coworkers across the landing page, terms, translations, project metadata, user stories, license, and documentation.
+- Replaced the former publisher identity with Team Coworkers across the landing page, terms, translations, project metadata, user stories, license, and documentation.
 - Confirmed the current five-person Team Coworkers roster in the published team section.
 
 ## [0.2.1] - 2026-09-16
