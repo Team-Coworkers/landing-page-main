@@ -101,7 +101,7 @@ As a visitor from the independent-hotel segment, I want to identify the Hostera 
 
 - **Given** the visitor considers that the independent-hotel option fits the operation
 - **When** the visitor decides to continue
-- **Then** the system provides the Starter plan information.
+- **Then** the system opens the account creation view of the Hostera web application with the Starter plan selected and its conditions.
 
 ---
 
@@ -137,7 +137,7 @@ As a small-chain hotel operations manager, I want an option for coordinating 2 t
 
 - **Given** the visitor considers that the small-chain option fits the operation
 - **When** the visitor decides to continue
-- **Then** the system provides the Professional plan information.
+- **Then** the system opens the account creation view of the Hostera web application with the Professional plan selected and its monthly estimate.
 
 ---
 
@@ -185,7 +185,7 @@ As a visitor, I want to compare the plans and understand the available next step
 
 - **Given** the visitor has chosen a plan
 - **When** the visitor decides to continue
-- **Then** Starter and Professional lead to the information of each plan, and Enterprise leads to the sales contact.
+- **Then** Starter and Professional open the account creation view of the web application with that plan selected, and Enterprise leads to the sales contact.
 
 ### Scenario: The visitor contacts the sales team
 
