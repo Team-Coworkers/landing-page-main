@@ -5,6 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added
+
+- English and Spanish sales contact page for hotel groups, reachable from the plans and the closing section.
+- Sign-in link to the Hostera web application in the homepage, sales and terms headers, including the mobile menu.
+- Monthly cost estimate for the Professional plan, calculated from the number of rooms.
+- Canonical, Open Graph, keyword and author metadata on the homepage, sales and terms pages, with the keywords translated to Spanish.
+
+### Changed
+
+- The entry plan is presented as Starter at S/39 per property per month, and Professional at S/8 per room per month; Enterprise remains the sales-led option for large hotel groups.
+- The Starter and Professional buttons and the closing action open the Hostera web application.
+- The Spanish variant is declared as Latin American Spanish (`es_419`).
+- The shared plans stylesheet is renamed from `plan-free.css` to `plans.css`.
+- The README and the user stories describe the current plans.
+
 ## [0.3.0] - 2026-09-19
 
 ### Changed
