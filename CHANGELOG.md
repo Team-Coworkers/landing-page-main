@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.1] - 2026-10-09
+
+### Changed
+
+- The sign-in link and the Starter and Professional actions open the web application published on Render, `https://team-coworkers-hostera-web.onrender.com/`, next to its demonstration API.
+
 ## [0.5.0] - 2026-10-08
 
 ### Changed
