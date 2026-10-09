@@ -1,6 +1,6 @@
 {
   "name": "landing-page-hostera",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Nuestro proyecto nace de un problema que vemos en las cadenas hoteleras: la gestión de reservas, disponibilidad de habitaciones y almacén se suele llevar de forma manual o con sistemas separados por sede, lo que genera errores de sobreventa, falta de visibilidad del stock y poco control sobre el acceso físico a las habitaciones. Por eso, buscamos desarrollar un panel administrativo web centralizado que permita monitorear en tiempo real las reservas, la disponibilidad y el almacén, y que pueda ser replicado en varias cadenas de hoteles.",
   "license": "MIT",
   "author": "Team Coworkers",
