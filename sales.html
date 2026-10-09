@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  data-i18n-title="sales.page.title"
+  data-i18n-keywords="sales.page.keywords"
+  data-i18n-description="sales.page.description"
+>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Talk to sales | Hostera</title>
+    <meta
+      name="description"
+      content="Tell Hostera about your hotel group and discuss the Enterprise plan."
+    />
+    <meta name="keywords" content="hotel management platform, hotel group, Hostera plans, talk to sales" />
+    <meta name="author" content="Team Coworkers" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/geist-sans@5.2.5/400.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/geist-sans@5.2.5/500.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/geist-sans@5.2.5/600.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/geist-mono@5.2.5/600.css" />
+    <link rel="stylesheet" href="css/tokens.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/sales-page.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main"><span data-i18n="skip">Skip to content</span></a>
+    <div class="page">
+      <header class="site-header" data-site-header>
+        <a class="brand" href="./">
+          <img class="brand__mark" src="public/hostera-mark.svg" width="56" height="56" alt="" />
+          <span class="brand__word" aria-hidden="true">ostera</span>
+          <span class="visually-hidden">Hostera</span>
+        </a>
+        <nav class="site-header__nav" id="primary-nav" aria-label="Primary" data-i18n-aria="nav.primary">
+          <a href="./#solutions" data-i18n="nav.solutions">Solutions</a>
+          <a href="./#features" data-i18n="nav.features">Features</a>
+          <a href="./#pricing" data-i18n="nav.pricing">Pricing</a>
+          <a href="./#product" data-i18n="nav.product">Product</a>
+          <a href="./#about" data-i18n="nav.about">About</a>
+        </nav>
+        <p class="lang site-header__lang">
+          <button type="button" data-lang="en" lang="en" aria-current="page">EN</button>
+          <span aria-hidden="true">/</span>
+          <button type="button" data-lang="es" lang="es">ES</button>
+        </p>
+        <a class="site-header__login" href="https://team-coworkers.github.io/hostera-frontend/" data-i18n="cta.login">Sign in</a>
+        <a class="site-header__cta" href="./#starter">
+          <span data-i18n="cta.starter">Explore Starter</span>
+          <svg class="site-header__cta-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M5 12h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            <path d="m12 5 7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </a>
+        <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="primary-nav">
+          <span class="visually-hidden" data-i18n="nav.menu">Open navigation menu</span>
+          <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </button>
+      </header>
+
+      <main id="main" class="sales-page">
+        <section class="sales" aria-labelledby="sales-heading">
+          <div class="sales__panel">
+            <h1 class="sales__title" id="sales-heading" data-i18n="sales.title">Talk to sales</h1>
+            <p class="sales__lede" data-i18n="sales.lede">
+              Tell us about your hotel group and we will follow up about the Enterprise path.
+            </p>
+            <form class="sales__form" data-sales-form>
+              <label>
+                <span data-i18n="sales.name">Name</span>
+                <input type="text" name="name" autocomplete="name" required />
+              </label>
+              <label>
+                <span data-i18n="sales.org">Hotel or group</span>
+                <input type="text" name="organization" autocomplete="organization" required />
+              </label>
+              <label>
+                <span data-i18n="sales.message">Message</span>
+                <textarea name="message" rows="4" required></textarea>
+              </label>
+              <button type="submit" data-i18n="cta.sales">Talk to sales</button>
+              <p class="sales__thanks" data-sales-thanks hidden aria-live="polite" data-i18n="sales.thanks">
+                Thanks. A Hostera teammate will follow up.
+              </p>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="site-footer__inner">
+          <div class="site-footer__brand">
+            <a class="brand" href="./">
+              <img class="brand__mark" src="public/hostera-mark.svg" width="56" height="56" alt="" />
+              <span class="brand__word" aria-hidden="true">ostera</span>
+              <span class="visually-hidden">Hostera</span>
+            </a>
+            <p class="site-footer__tagline" data-i18n="footer.tagline">Hotel operations, connected.</p>
+          </div>
+          <nav class="site-footer__nav" aria-label="Footer" data-i18n-aria="nav.footer">
+            <a href="./#solutions" data-i18n="nav.solutions">Solutions</a>
+            <a href="./#benefits" data-i18n="nav.benefits">Benefits</a>
+            <a href="./#pricing" data-i18n="nav.pricing">Pricing</a>
+            <a href="./#product" data-i18n="nav.product">Product</a>
+            <a href="./#about" data-i18n="nav.about">About</a>
+            <a href="./#support" data-i18n="nav.support">Support</a>
+          </nav>
+          <div class="site-footer__legal">
+            <a href="terms.html" data-i18n="footer.terms">Terms and Conditions</a>
+            <p class="lang">
+              <button type="button" data-lang="en" lang="en" aria-current="page">EN</button>
+              <span aria-hidden="true">/</span>
+              <button type="button" data-lang="es" lang="es">ES</button>
+            </p>
+            <p class="site-footer__copy" data-i18n="footer.copy">© 2026 Team Coworkers. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/nav.js" defer></script>
+    <script src="js/sales.js" defer></script>
+    <script src="js/i18n.js" defer></script>
+  </body>
+</html>
