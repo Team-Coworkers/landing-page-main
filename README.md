@@ -14,7 +14,7 @@ This repository is the **public landing page** for that product: a static site i
 - Benefits (inventory, access) and a four-step setup flow
 - Plan comparison, sales contact, team, FAQ, and terms
 
-Section links, the language switch (EN/ES), the sales contact and the terms page stay on this static site. The sign-in link and the plan buttons open the Hostera web application at https://team-coworkers.github.io/hostera-frontend/.
+Section links, the language switch (EN/ES), the sales contact and the terms page stay on this static site. The sign-in link opens the web application's sign-in view (`/sign-in`), and each segment's call-to-action opens its account creation view with the plan selected: `/sign-up?plan=starter` for independent hotels and `/sign-up?plan=professional` for small chains, at https://team-coworkers.github.io/hostera-frontend/.
 
 ## Plans (as presented on the page)
 
