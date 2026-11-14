@@ -51,6 +51,7 @@
     <link rel="stylesheet" href="css/plan-professional.css" />
     <link rel="stylesheet" href="css/plan-enterprise.css" />
     <link rel="stylesheet" href="css/discover.css" />
+    <link rel="stylesheet" href="css/videos.css" />
     <link rel="stylesheet" href="css/team.css" />
     <link rel="stylesheet" href="css/support.css" />
     <link rel="stylesheet" href="css/closing.css" />
@@ -70,6 +71,7 @@
           <a href="#features" data-i18n="nav.features">Features</a>
           <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
           <a href="#product" data-i18n="nav.product">Product</a>
+          <a href="#videos" data-i18n="nav.videos" data-video-nav hidden>Videos</a>
           <a href="#about" data-i18n="nav.about">About</a>
         </nav>
         <p class="lang site-header__lang">
@@ -456,6 +458,27 @@
           </div>
         </section>
 
+        <section class="videos section-target" id="videos" aria-labelledby="videos-heading" tabindex="-1" data-videos hidden>
+          <div class="videos__inner">
+            <div class="videos__copy">
+              <h2 class="videos__title" id="videos-heading" data-i18n="videos.title">See Hostera and the team behind it.</h2>
+              <p class="videos__lede" data-i18n="videos.lede">
+                Two short videos: how Hostera works in a hotel day, and who is building it.
+              </p>
+            </div>
+            <div class="videos__grid">
+              <figure class="video" data-video="product" hidden>
+                <div class="video__frame" data-video-frame></div>
+                <figcaption class="video__caption" data-i18n="videos.product">About the Product</figcaption>
+              </figure>
+              <figure class="video" data-video="team" hidden>
+                <div class="video__frame" data-video-frame></div>
+                <figcaption class="video__caption" data-i18n="videos.team">About the Team</figcaption>
+              </figure>
+            </div>
+          </div>
+        </section>
+
         <section class="team section-target" id="about" aria-labelledby="about-heading" tabindex="-1">
           <div class="team__inner">
             <div class="team__intro">
@@ -466,7 +489,7 @@
                   more connected and more human.
                 </p>
               </div>
-              <div class="media-card media-card--team">
+              <a class="media-card media-card--team" href="#videos" data-video-link="team" hidden>
                 <div class="media-card__play">
                   <span class="media-card__play-icon" aria-hidden="true">
                     <svg width="28" height="28" viewBox="0 0 24 24">
@@ -476,7 +499,7 @@
                   <span class="media-card__play-label" data-i18n="team.play">Meet the team</span>
                   <span class="media-card__play-hint" data-i18n="team.hint">Discover who is building Hostera and why</span>
                 </div>
-              </div>
+              </a>
             </div>
             <div class="team__grid">
               <article class="member">
@@ -596,6 +619,7 @@
             <a href="#benefits" data-i18n="nav.benefits">Benefits</a>
             <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
             <a href="#product" data-i18n="nav.product">Product</a>
+            <a href="#videos" data-i18n="nav.videos" data-video-nav hidden>Videos</a>
             <a href="#about" data-i18n="nav.about">About</a>
             <a href="#support" data-i18n="nav.support">Support</a>
           </nav>
@@ -616,6 +640,7 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/ScrollToPlugin.min.js" defer></script>
     <script src="js/nav.js" defer></script>
     <script src="js/i18n.js" defer></script>
+    <script src="js/videos.js" defer></script>
     <script src="js/pricing.js" defer></script>
     <script src="js/motion.js" defer></script>
   </body>
