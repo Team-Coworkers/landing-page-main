@@ -436,25 +436,68 @@
           </div>
         </section>
         <section class="discover section-target" id="product" aria-labelledby="product-heading" tabindex="-1">
-          <div class="discover__inner">
-            <div class="discover__copy">
-              <h2 class="discover__title" id="product-heading" data-i18n="product.title">Every part of your hotel, working together.</h2>
-              <p class="discover__lede" data-i18n="product.lede">
-                Reservations, rooms, inventory and access stay connected so your team can work with
-                clarity every day.
-              </p>
-            </div>
-            <div class="media-card media-card--tall">
-              <div class="media-card__play">
-                <span class="media-card__play-icon" aria-hidden="true">
-                  <svg width="30" height="30" viewBox="0 0 24 24">
-                    <path d="M8 5v14l11-7z" fill="currentColor" />
+          <div class="discover__inner discover__inner--showcase">
+            <div class="discover__head">
+              <div class="discover__copy">
+                <h2 class="discover__title" id="product-heading" data-i18n="product.title">Every part of your hotel, working together.</h2>
+                <p class="discover__lede" data-i18n="product.lede">
+                  Reservations, rooms, inventory and access stay connected so your team can work with
+                  clarity every day.
+                </p>
+              </div>
+              <div class="discover__actions">
+                <a class="discover__cta" href="https://team-coworkers-hostera-web.onrender.com/" target="_blank" rel="noopener">
+                  <span data-i18n="product.cta">Open the web application</span>
+                  <svg class="discover__cta-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M5 12h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                    <path d="m12 5 7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                   </svg>
-                </span>
-                <span class="media-card__play-label" data-i18n="product.play">Discover Hostera</span>
-                <span class="media-card__play-hint" data-i18n="product.hint">See how it works in daily hotel operations</span>
+                </a>
+                <p class="discover__note" data-i18n="product.note">Screens of the published Hostera web application, with its demonstration data.</p>
               </div>
             </div>
+            <ul class="showcase" role="list">
+              <li>
+                <figure class="showcase__item">
+                  <img src="public/app-overview.webp" width="1440" height="900" loading="lazy" decoding="async"
+                    alt="Hostera overview with room revenue and occupancy, property overview, today's arrivals and room status" data-i18n-alt="product.shot.overview.alt" />
+                  <figcaption>
+                    <strong data-i18n="product.shot.overview">Overview</strong>
+                    <span data-i18n="product.shot.overview.text">Revenue, occupancy, arrivals and room status for the active property.</span>
+                  </figcaption>
+                </figure>
+              </li>
+              <li>
+                <figure class="showcase__item">
+                  <img src="public/app-bookings.webp" width="1440" height="900" loading="lazy" decoding="async"
+                    alt="Hostera bookings list with each guest's stay, room, booking status, payment status and total" data-i18n-alt="product.shot.bookings.alt" />
+                  <figcaption>
+                    <strong data-i18n="product.shot.bookings">Bookings</strong>
+                    <span data-i18n="product.shot.bookings.text">Every stay with its room, status and payment.</span>
+                  </figcaption>
+                </figure>
+              </li>
+              <li>
+                <figure class="showcase__item">
+                  <img src="public/app-access-control.webp" width="1440" height="900" loading="lazy" decoding="async"
+                    alt="Hostera access control list with guest key cards and staff credentials, the room they open, their validity and status" data-i18n-alt="product.shot.access.alt" />
+                  <figcaption>
+                    <strong data-i18n="product.shot.access">Access control</strong>
+                    <span data-i18n="product.shot.access.text">Guest key cards and staff credentials, with their validity.</span>
+                  </figcaption>
+                </figure>
+              </li>
+              <li>
+                <figure class="showcase__item">
+                  <img src="public/app-inventory.webp" width="1440" height="900" loading="lazy" decoding="async"
+                    alt="Hostera inventory list with each item's category, storage location, quantity on hand and stock condition" data-i18n-alt="product.shot.inventory.alt" />
+                  <figcaption>
+                    <strong data-i18n="product.shot.inventory">Inventory</strong>
+                    <span data-i18n="product.shot.inventory.text">Stock by item and storage location, with low-stock alerts.</span>
+                  </figcaption>
+                </figure>
+              </li>
+            </ul>
           </div>
         </section>
 
