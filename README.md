@@ -41,6 +41,10 @@ Then open [http://127.0.0.1:8765/](http://127.0.0.1:8765/).
 - GSAP (CDN) for hero and scroll motion
 - Git Flow (`main` / `develop`, releases tagged with Semantic Versioning)
 
+## Videos
+
+The About the Product and About the Team videos are YouTube embeds. Their IDs live in one place, `VIDEO_IDS` at the top of [`js/videos.js`](js/videos.js): paste only the 11-character ID (the part after `watch?v=` or `youtu.be/`). While an ID is empty its video stays hidden, and the whole section, its menu link and the team section's video card stay hidden until at least one video has an ID.
+
 User stories for the landing page live in [`docs/user-stories.md`](docs/user-stories.md).
 
 ## License
