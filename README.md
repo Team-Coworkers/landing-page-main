@@ -13,6 +13,8 @@ This repository is the **public landing page** for that product: a static site i
 - Why operations break when information lives in different places
 - Benefits (inventory, access) and a four-step setup flow
 - Plan comparison, sales contact, team, FAQ, and terms
+- Screens of the published web application and the About the Product and About the Team videos
+- Contact options and the Team Coworkers GitHub organization in every footer
 
 Section links, the language switch (EN/ES), the sales contact and the terms page stay on this static site. The sign-in link opens the web application's sign-in view (`/sign-in`), and each segment's call-to-action opens its account creation view with the plan selected: `/sign-up?plan=starter` for independent hotels and `/sign-up?plan=professional` for small chains, at https://team-coworkers-hostera-web.onrender.com/.
 
@@ -40,6 +42,10 @@ Then open [http://127.0.0.1:8765/](http://127.0.0.1:8765/).
 - In-page English/Spanish copy in `js/i18n.js`
 - GSAP (CDN) for hero and scroll motion
 - Git Flow (`main` / `develop`, releases tagged with Semantic Versioning)
+
+## Videos
+
+The About the Product and About the Team videos are YouTube embeds. Their IDs live in one place, `VIDEO_IDS` at the top of [`js/videos.js`](js/videos.js): paste only the 11-character ID (the part after `watch?v=` or `youtu.be/`). While an ID is empty its video stays hidden, and the whole section, its menu link and the team section's video card stay hidden until at least one video has an ID.
 
 User stories for the landing page live in [`docs/user-stories.md`](docs/user-stories.md).
 

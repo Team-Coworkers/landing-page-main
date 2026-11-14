@@ -116,3 +116,118 @@
     min-height: 220px;
   }
 }
+
+.discover__inner--showcase {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 40px;
+}
+
+.discover__head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.discover__inner--showcase .discover__copy {
+  width: min(560px, 100%);
+}
+
+.discover__actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  max-width: 340px;
+}
+
+.discover__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 48px;
+  padding: 0 22px;
+  border-radius: var(--md-sys-shape-corner-full);
+  background: var(--md-sys-color-primary);
+  color: var(--md-sys-color-on-primary);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.discover__cta:hover {
+  background: color-mix(in srgb, var(--md-sys-color-primary) 88%, black);
+}
+
+.discover__cta:focus-visible {
+  outline: 2px solid var(--md-sys-color-primary);
+  outline-offset: 3px;
+}
+
+.discover__cta-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.discover__note {
+  margin: 0;
+  color: var(--md-sys-color-on-surface-variant);
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.showcase {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.showcase__item {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin: 0;
+}
+
+.showcase__item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--md-sys-color-outline);
+  border-radius: var(--md-sys-shape-corner-large);
+  background: var(--md-sys-color-surface-container);
+}
+
+.showcase__item figcaption {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.showcase__item figcaption strong {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.showcase__item figcaption span {
+  color: var(--md-sys-color-on-surface-variant);
+}
+
+@media (max-width: 767px) {
+  .discover__inner--showcase {
+    gap: 28px;
+  }
+
+  .showcase {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
