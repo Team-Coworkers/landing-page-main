@@ -5,6 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.6.0] - 2026-11-14
+
+### Added
+
+- Videos section with the About the Product and About the Team YouTube embeds. Their IDs live only in `VIDEO_IDS` at the top of `js/videos.js`; while an ID is empty its video stays hidden, and the section, its menu link and the team section's video card stay hidden until at least one video has an ID.
+- The product section shows four screens of the published web application (overview, bookings, access control and inventory) with their demonstration data, captions in English and Spanish, and an action that opens the web application.
+- Every footer (homepage, sales and terms) shows a contact block with the sales contact page, the web application and the Team Coworkers GitHub organization, with English and Spanish labels and accessible names.
+
+### Changed
+
+- The navigation toggle announces whether it opens or closes the menu, returns the focus to itself when the menu closes with Escape, and closes the menu when the layout changes to desktop.
+- The product section no longer shows a video placeholder that did nothing; the team section only shows its video card when the team video is available.
+
+### Verified
+
+- No horizontal overflow on the homepage, sales and terms pages at 360, 768 and 1280 px, in English and Spanish, and the mobile menu opens and closes.
+
 ## [0.5.1] - 2026-10-09
 
 ### Changed
