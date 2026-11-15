@@ -5,7 +5,7 @@
  * until at least one video has an ID.
  */
 const VIDEO_IDS = {
-  product: "", // About the Product
+  product: "dwmTRPz5aHo", // About the Product
   team: "BBDl29vUedM", // About the Team
 };
 
