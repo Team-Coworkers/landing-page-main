@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.6.1] - 2026-11-14
+
+### Added
+
+- The About the Team video (YouTube `BBDl29vUedM`) is embedded in the videos section, so the section, its menu link and the team section's video card are now visible. The About the Product video stays hidden until its ID is available.
+
+### Fixed
+
+- A single video takes half of the row on desktop instead of the full width; on screens narrower than 900 px each video takes the full width.
+
 ## [0.6.0] - 2026-11-14
 
 ### Added
